@@ -1,0 +1,18 @@
+# Company documents and anything derived from them stay local
+private/
+
+# Audio is only for checking a transcript; it never leaves the phone or PC
+*.m4a
+*.mp3
+*.wav
+*.aac
+*.ogg
+*.opus
+
+# Source documents (handbooks, policies, PDFs from work)
+*.pdf
+*.docx
+
+# Secrets for the later automation
+.env
+*.key
